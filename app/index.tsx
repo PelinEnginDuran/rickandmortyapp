@@ -8,7 +8,6 @@ export default function Index() {
     <View className="flex-1 p-4">
       <MultiSelect
         onSelect={(characters) => {
-          console.log('Selected characters:', characters);
         }}
       />
 
